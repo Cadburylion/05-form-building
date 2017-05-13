@@ -46,3 +46,54 @@ a:visited {
 /*FORM STYLES
 =======================================*/
 /*TODO: Add the CSS needed to style the form*/
+
+form {
+  /*width: 90%;*/
+}
+
+label {
+  display: block;
+  width: 100%;
+}
+
+input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: green;
+  font-size: 3em;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+textarea {
+  font-size: 2em;
+  width: 100%;
+  border-color: green;
+  margin-bottom: 40px;
+}
+
+input[type=checkbox] {
+  transform: scale(2);
+}
+
+.article-body {
+  margin: 10px 0 10px 0;
+}
+
+#article-published {
+  width: auto;
+  font-size: 2em;
+}
+
+#export-field {
+  width: 70%;
+  color: #999;
+}
+
+#article-json {
+  font-size: 1em;
+  color: #999;
+  border-color: #999;
+  margin-bottom: 0;
+}
